@@ -1,0 +1,305 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+
+    background: #eeeeee;
+
+}
+
+.cabecalho{
+    width: 100%;
+    height: auto;
+    background-color: #e0e4e3;
+    height: 80px;
+}
+
+.logo{
+    width: 100px;
+    height: 80px;
+    float: left;
+    background: url(../img/logo.png) no-repeat;
+    background-size: contain;
+    font-size: 0;
+    margin-left: 20px;
+    cursor: pointer;
+    
+}
+
+.cabecalho form{
+    width: 30%;
+    float: right;
+    margin-top: 10px;
+
+}
+
+.cabecalho input{
+    width: 70%;
+    float: left;
+    padding: 15px 10px;
+}
+
+.cabecalho input[type="text"]{
+    width: 50%;
+    float: left;
+    padding: 15px 15px ;
+    border-radius: 5px 0 0 5px;
+
+
+}
+.cabecalho ion-icon{
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.cabecalho ion-icon:hover{
+   background-color: #feffff;
+}
+
+
+
+.menu{
+    width: 100%;
+    float: left;
+    background-color: #111111;
+    height: 50px;
+    
+
+}
+.menu li{
+    float: left;
+    margin-top: 10px;
+
+}
+.menu li a{
+    font-size: 20px;
+    color:azure;
+    list-style-type: none;
+    text-decoration: none;
+}
+.img-top{
+    background:
+    /* top, transparent black, faked with gradient */ 
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/produto6.jpg') no-repeat;
+    width: 50%;
+   height: 380px;
+   display: flex;
+   justify-content: center;
+   margin-top: 100px;
+   margin-left: 330px;
+   margin-right: 400px;
+   background-size: contain;
+   
+   position: relative;
+   
+}
+
+.img-top .align-info{
+   color: #ffffff;
+   font-size: larger;
+   position: absolute;
+   margin: auto;
+   left: 50px;
+   right: 0;
+   border:0 ;
+   top: 300px;  
+   width: 400px;  
+}
+
+.img-top .align-info button{
+    background-color: #111111;
+    color: #ffffff;
+    height: 30px;
+}
+.list-icone{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.list-icone .icon{
+    display: block;
+    margin-left: 30px;
+   cursor: pointer;
+
+}
+.list-icone .icon:hover{
+    background: #c7c2c2;
+    cursor: pointer;
+}
+
+
+.list-icone .icon ion-icon{
+    font-size: 60px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.list-icone .icon p{
+    text-align: center;
+}
+
+
+.cards{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+ h3{
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
+}
+
+ .cards .card{
+    width: auto;
+    height: 70%;
+    margin-left: 30px;
+    margin-right: 50px;
+    justify-content: center;
+    margin-top: 10%;
+    box-shadow: 10px 10px 10px #999797;
+    display: block;
+    background: #fafafa;
+
+ }
+ .cards .card img{
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 250px;
+    height: 150px;
+    margin-top: 10px;
+
+ }
+
+ .cards .card h3{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+ }
+
+ .cards .card p{
+    text-align: center;
+    font-size: 18px;
+    max-width: 370px;
+ }
+
+ .cards .card .card-button{
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     margin-top: 20px;
+     
+ }
+
+ .cards .card .card-button button{
+    
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    background: yellow;
+    
+ }
+
+ .list-servicos{
+    width: 100%;
+    margin-top: 50px;
+ }
+ 
+ .list-servicos .align{
+     justify-content: end;
+     margin-top: 100px;
+ }
+ .list-servicos h3{
+     text-align: center;
+     font-size: 30px;
+ }
+ 
+ .list-servicos .servico{
+     display: flex;
+     align-items: center;
+     margin-left: 50px;
+     padding: 20px;
+ }
+ 
+ .list-servicos .servico img{
+     height: 150px;
+ }
+ 
+ .list-servicos .servico p{
+     width: 400px;
+     font-size: 20px;
+     margin-left: 50px;
+     
+ }
+ 
+ .list-servicos .servico a{
+     list-style-type: none;
+     text-decoration: none;
+ }
+
+ .list-social{
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-top: 50px;
+ }
+
+ .list-social a{
+     color: #111111;
+ }
+
+ .list-social ion-icon{
+     font-size: 30px;
+     margin-left: 10px;
+ }
+
+ .list-social ion-icon:hover{
+    background: #e0d7d7;
+}
+.list-social h5{
+    font-size: 20px;
+
+}
+
+
+
+ .footer{
+     width: 100%;
+     height: auto;
+     background: #3a3c49;
+ }
+
+ .footer p{
+     color: #ffffff;
+ }
+
+ .footer .footer-list{
+     display: flex;
+     padding: 10px;
+     justify-content: space-around;
+ }
+
+ .footer .footer-list .footer-content{
+     padding: 20px;
+     margin-top: 10px;
+ }
+ .footer .footer-list .footer-content a p{
+    margin-top: 10px;
+    font-size: 14px;
+ }
+ .footer p{
+     text-align: center;
+ }
+
+
+
+
+
+
+
