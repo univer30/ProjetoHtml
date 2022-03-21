@@ -42,7 +42,7 @@ body{
 }
 
 .cabecalho input[type="text"]{
-    width: 50%;
+    width: 60%;
     float: left;
     padding: 15px 15px ;
     border-radius: 5px 0 0 5px;
@@ -50,12 +50,14 @@ body{
 
 }
 .cabecalho ion-icon{
-    font-size: 40px;
+    font-size: 50px;
     cursor: pointer;
+    height: 60px;
 }
 
 .cabecalho ion-icon:hover{
    background-color: #feffff;
+   
 }
 
 
@@ -65,6 +67,7 @@ body{
     float: left;
     background-color: #111111;
     height: 50px;
+    margin-top: -10px;
     
 
 }
@@ -79,45 +82,21 @@ body{
     list-style-type: none;
     text-decoration: none;
 }
-.img-top{
-    background:
-    /* top, transparent black, faked with gradient */ 
-    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/produto6.jpg') no-repeat;
-    width: 50%;
-   height: 380px;
-   display: flex;
-   justify-content: center;
+
+.container-carousel{
+    display: flex;
+    justify-content: center;
+    width: 60%;
+   margin-left: 300px;
    margin-top: 100px;
-   margin-left: 330px;
-   margin-right: 400px;
-   background-size: contain;
-   
-   position: relative;
-   
 }
 
-.img-top .align-info{
-   color: #ffffff;
-   font-size: larger;
-   position: absolute;
-   margin: auto;
-   left: 50px;
-   right: 0;
-   border:0 ;
-   top: 300px;  
-   width: 400px;  
-}
-
-.img-top .align-info button{
-    background-color: #111111;
-    color: #ffffff;
-    height: 30px;
-}
 .list-icone{
     display: flex;
     width: 100%;
     justify-content: center;
     margin-top: 100px;
+
 }
 
 .list-icone .icon{
@@ -152,23 +131,23 @@ body{
  h3{
     width: 100%;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 150px;
 }
 
  .cards .card{
     width: auto;
-    height: 70%;
+    height: 80%;
     margin-left: 30px;
     margin-right: 50px;
     justify-content: center;
-    margin-top: 10%;
+    margin-top: 5%;
     box-shadow: 10px 10px 10px #999797;
     display: block;
     background: #fafafa;
 
  }
  .cards .card img{
-    margin-left: 50px;
+    margin-left: 60px;
     margin-right: 50px;
     width: 250px;
     height: 150px;
