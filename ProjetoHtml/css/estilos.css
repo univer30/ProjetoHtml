@@ -37,8 +37,11 @@ body{
 
 .cabecalho input{
     width: 70%;
+    height: 40px;
     float: left;
     padding: 15px 10px;
+    border-radius: 7px;
+    border-color: #dbd7d7;
 }
 
 .cabecalho input[type="text"]{
@@ -50,9 +53,9 @@ body{
 
 }
 .cabecalho ion-icon{
-    font-size: 50px;
+    font-size: 30px;
     cursor: pointer;
-    height: 60px;
+    height: 40px;
 }
 
 .cabecalho ion-icon:hover{
@@ -68,6 +71,7 @@ body{
     background-color: #111111;
     height: 50px;
     margin-top: -10px;
+
     
 
 }
@@ -81,6 +85,21 @@ body{
     color:azure;
     list-style-type: none;
     text-decoration: none;
+}
+
+.menu li a:hover{
+color: #3d3fb6;
+}
+
+.menu .login{
+    display: flex;
+    justify-content: end;
+    margin-right: 100px ;
+}
+
+.menu .login a ion-icon{
+    font-size: 35px;
+    
 }
 
 .container-carousel{
@@ -175,8 +194,7 @@ body{
      
  }
 
- .cards .card .card-button button{
-    
+ .cards .card .card-button button{ 
     width: 100px;
     height: 40px;
     border-radius: 10px;
@@ -203,6 +221,7 @@ body{
      align-items: center;
      margin-left: 50px;
      padding: 20px;
+     margin-top: 20px;
  }
  
  .list-servicos .servico img{
@@ -246,8 +265,6 @@ body{
 
 }
 
-
-
  .footer{
      width: 100%;
      height: auto;
@@ -275,6 +292,125 @@ body{
  .footer p{
      text-align: center;
  }
+
+ .list-component{
+     width: 100%;
+     height: 100vh;
+     background-color: transparent;
+     opacity: 1.9;
+     position: fixed;
+     top: -4px; 
+     display: none;
+      
+ }
+
+ .list-component .modals{
+    width:60%;
+    height: 90%;
+    background: rgb(178, 187, 206); 
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+ }
+ 
+
+ .list-component .modals .align-logo{
+     display: flex;
+     justify-content:space-around;
+     align-items: center;
+     margin-left: 330px;
+     
+ }
+
+ .list-component .modals .align-logo img{
+    cursor: pointer;   
+}
+
+ .list-component .modals .align-logo ion-icon{
+     margin-left: 300px;
+     font-size: 30px;
+     cursor: pointer;
+ }
+
+ .list-form{
+     display: flex;
+     justify-content: space-around;
+     margin-top: 50px;
+     overflow: hidden;
+    
+ }
+ .list-form .cadas-form{
+  width: 40%;
+  background: #ffff;
+  box-shadow: 10px 10px 10px rgb(223, 223, 223);
+
+}
+
+ .list-form .cadas-form p{
+    text-align: center;  
+    font-size: 20px; 
+  
+}
+
+ .list-form .cadas-form form .align-input{
+    margin-top: 30px;
+    margin-left: 10%;
+ }
+ .list-form .cadas-form form .align-input input{
+    width: 250px;
+    padding: 5px;
+    border-radius: 7px;
+    border-color: #dbd7d7;
+ }
+
+ .list-form .cadas-form form .align-input input[type="submit"]{
+   background-color: rgb(51, 194, 94);
+   color: #fafafa;
+ }
+
+ .list-form .login-form{
+    box-shadow: 10px 10px 10px rgb(224, 219, 219);
+    height: 300px;
+    background:#fff ;
+ }
+ .list-form .login-form p{
+    text-align: center;
+     font-size: 20px;
+}
+
+ .list-form .login-form {
+     width: 300px;
+     margin-top: 50px;
+     display: block;
+ }
+
+ 
+ .list-form .login-form form .align-input {
+    margin-top: 40px;
+    justify-content: center;
+    margin-left: 18%;
+    margin-right:30%;
+}
+
+.list-form .login-form form .align-input input {
+   padding:5px;
+   border-radius: 7px;
+   border-color: #dbd7d7;
+}
+
+
+.list-form .login-form form .align-input input[type="submit"] {
+  width: 195px;
+  background: yellow;
+}
+
+
+ 
+ 
+
+  
 
 
 
