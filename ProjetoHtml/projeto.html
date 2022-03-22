@@ -32,7 +32,7 @@
    </nav>
    
     <main>
-      <div class="container-carousel">
+      <div class="container-carousel" id="carousel">
         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
            <div class="carousel-indicators">
               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -73,7 +73,7 @@
           <ion-icon name="logo-microsoft"></ion-icon>
           <p>Adquira seu windows 11</p>
         </div>
-      </div>
+      </div><br><br>
       <h3>Produtos Microsoft</h3>
        <div class="cards">
         <div class="card">
@@ -179,17 +179,17 @@
                              <input type="text" placeholder="Digite seu nome">
                           </div>
                           <div class="align-input">
-                             <input type="text" placeholder="Digite seu CEP">
+                             <input type="text" placeholder="Digite seu CEP" onchange="cep()" id="c">
                           </div>
                           <div class="align-input">
-                            <input type="text" placeholder="Endereço">
+                            <input type="text" placeholder="Endereço" id="end">
                          </div>
                          <div class="align-input">
                           <input type="text" placeholder=" Número" style="width: 100px;">
-                          <input type="text" placeholder="Digite seu bairro" style="width: 140px;">
+                          <input type="text" placeholder="Digite seu bairro" style="width: 140px;" id="bairro">
                          </div>   
                          <div class="align-input">
-                             <input type="text" placeholder="Cidade">
+                             <input type="text" placeholder="Cidade" id="cidade">
                          </div> 
                          <div class="align-input">
                           <input type="submit" value="Cadastrar">
