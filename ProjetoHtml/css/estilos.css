@@ -348,11 +348,17 @@ color: #3d3fb6;
      overflow: hidden;
     
  }
+
  .list-form .cadas-form{
   width: 40%;
   background: #ffff;
   box-shadow: 10px 10px 10px rgb(223, 223, 223);
 
+}
+
+.list-form .cadas-form .align-icone{
+    display: flex;
+    justify-content: center;
 }
 
  .list-form .cadas-form p{
@@ -379,7 +385,7 @@ color: #3d3fb6;
 
  .list-form .login-form{
     box-shadow: 10px 10px 10px rgb(224, 219, 219);
-    height: 300px;
+    height: 330px;
     background:#fff ;
  }
  .list-form .login-form p{
@@ -391,6 +397,12 @@ color: #3d3fb6;
      width: 300px;
      margin-top: 50px;
      display: block;
+ }
+
+ .list-form .login-form .align-icone{
+     display: flex;
+     justify-content: center;
+     margin-top: 10px;
  }
 
  
