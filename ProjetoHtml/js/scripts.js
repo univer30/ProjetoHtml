@@ -19,7 +19,6 @@ function loginEnd(){
 
 function cep(){
     var cepReturn = document.getElementById('c');
-
     var linkViacep = "https://viacep.com.br/ws/"+cepReturn.value+"/json/";
     
     var xhr = new XMLHttpRequest();
