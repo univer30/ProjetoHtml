@@ -101,13 +101,16 @@ body{
     font-size: 35px;
     
 }
-
-.container-carousel{
+.body-contaiiner{
+    width:100%;
     display: flex;
     justify-content: center;
+
+}
+
+.container-carousel{
+    margin-top: 30px;
     width: 60%;
-    margin-left: 300px;
-    margin-top: 100px;
     opacity: 1;
 }
 
@@ -156,22 +159,25 @@ body{
 }
 
  .cards .card{
+    position: relative;
     width: auto;
-    height: 80%;
+    height: auto;
     margin-left: 30px;
     margin-right: 50px;
-    justify-content: center;
     margin-top: 5%;
     box-shadow: 10px 10px 10px #999797;
     display: block;
     background: #fafafa;
 
  }
+ .cards .card .align-img{
+     width:100%;
+     display: flex;
+     justify-content: center;
+ }
  .cards .card img{
-    margin-left: 60px;
-    margin-right: 50px;
-    width: 250px;
-    height: 150px;
+    max-width: 250px;
+    max-height: 150px;
     margin-top: 10px;
 
  }
@@ -196,11 +202,19 @@ body{
      
  }
 
- .cards .card .card-button button{ 
+ .cards .card .card-button .align-button{
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     margin-top: 30px;
+ }
+
+ .cards .card .card-button .align-button button{ 
     width: 100px;
     height: 40px;
     border-radius: 10px;
-    background: yellow;
+    background: #111;
+    color: #fff;
     
  }
 
